@@ -1,0 +1,15 @@
+1. El hecho de que el sistema sea modular y de bajo acople es que todas las clases
+entre sí procuren tener la mínima relación posible para que por si se presenta algun problema
+este pueda ser tratado de forma independiente con la mínima afectación posible a las otras funcionalidades
+Esta es la importancia de que se presente la modularidad de dicha aplicación.
+
+2. Es importante que un modulo del sistema tenga alta cohesión, es decir que se recurra a un módulo
+solo para la tarea para la que fue hecho. Es decir que este modulo no se use como una especie de comodín 
+que pueda ser util para tareas de modulos con objetivos diferentes
+
+3. Un monolito hace referencia a la aplicación donde toda la logica del negocio, interacción del usuario
+acceso a los datos y demas aplicaciones todo en un modulo o sobre una misma plataforma
+
+4. Una aplicación monolitica tiene muchas desventajas ya que si esta no corre correctamente o hay algun fallo
+en algun modulo de la misma fallará toda la aplicación ya que esta estructurado en un solo modulo por lo tanto
+es de alto acoplamiento quiere decir que todos los modulos estar fuertemente correlacionados.
